@@ -8,16 +8,25 @@
 
 Este projeto demonstra a construção de uma solução de Machine Learning de ponta a ponta para o problema de **manutenção preditiva industrial**. O objetivo é prever falhas em máquinas com base em dados de sensores em tempo real, permitindo que a equipe de manutenção atue de forma proativa, reduzindo custos com paradas inesperadas e otimizando a produção.
 
-A solução final é um **dashboard interativo construído com Streamlit**, que serve tanto como uma ferramenta de Análise de Dados Gerencial (EDA) quanto como um sistema de monitoramento em tempo real (O "AI Machine Predicts Broken").
+A solução final é um **dashboard interativo construído com Streamlit**, que serve tanto como uma ferramenta de Análise de Dados Gerencial (EDA) quanto como um sistema de monitoramento em tempo real (O "AI Machine Predicts Broken")
+
 
 ---
 
 ## ✨ Demonstração do Dashboard
 
-*DICA DE OURO: Grave um GIF curto da tela mostrando o dashboard em ação e cole o link aqui. Isso impressiona MUITO.*
-`![GIF do Dashboard](link_para_seu_gif.gif)`
+<img width="1024" height="1463" alt="image" src="https://github.com/user-attachments/assets/dbb2f35b-8a13-479e-a9db-03a438b17c9f" />
+
+<img width="1031" height="1219" alt="image" src="https://github.com/user-attachments/assets/22ff098b-d6bb-4ffd-bb00-7f402021afbc" />
+
+<img width="1009" height="1546" alt="image" src="https://github.com/user-attachments/assets/b31f3849-3764-4a04-9eec-143338b2f067" />
+
+<img width="1007" height="1561" alt="image" src="https://github.com/user-attachments/assets/9c55c591-f68e-4b96-8005-1defe0686f5e" />
+
+  ![aaohit](https://github.com/user-attachments/assets/492aeed7-29ee-40ac-a7c3-ba757f1ff0cf)
 
 ---
+
 
 ## 🚀 Principais Features
 
