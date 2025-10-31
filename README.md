@@ -1,20 +1,40 @@
 <img width="1024" height="585" alt="image" src="https://github.com/user-attachments/assets/01662548-3efa-4b90-bc53-624f40645584" />
 
 
-
-
 # 🏭 Fábrica Inteligente: Manutenção Preditiva com Machine Learning
 
-## 🎯 Visão Geral do Projeto
+## Visão Geral do Projeto
 
 Este projeto demonstra a construção de uma solução de Machine Learning de ponta a ponta para o problema de **manutenção preditiva industrial**. O objetivo é prever falhas em máquinas com base em dados de sensores em tempo real, permitindo que a equipe de manutenção atue de forma proativa, reduzindo custos com paradas inesperadas e otimizando a produção.
 
 A solução final é um **dashboard interativo construído com Streamlit**, que serve tanto como uma ferramenta de Análise de Dados Gerencial (EDA) quanto como um sistema de monitoramento em tempo real (O "AI Machine Predicts Broken")
 
+---
+## Tecnologias Utilizadas
 
+![Python](https://img.shields.io/badge/Python-3.12%2B-blue?logo=python&style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&style=for-the-badge)
+![XGBoost](https://img.shields.io/badge/XGBoost-Modelo_ML-006699?style=for-the-badge)
+![SHAP](https://img.shields.io/badge/SHAP-Interpretabilidade-purple?style=for-the-badge)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML_Pipeline-orange?logo=scikit-learn&style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-Análise_de_Dados-150458?logo=pandas&style=for-the-badge)
+![Plotly](https://img.shields.io/badge/Plotly-Visualização-blue?logo=plotly&style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-Laboratório_ML-F37626?logo=jupyter&style=for-the-badge)
+
+A solução foi construída utilizando um ecossistema moderno de Data Science em Python, com foco em performance, interpretabilidade e entrega de valor de negócio.
+
+| Categoria | Ferramenta | Utilização no Projeto |
+| :--- | :--- | :--- |
+| **Dashboard e Interface** | **Streamlit** | Para construir o dashboard interativo, servindo como a interface principal da solução para a gerência. |
+| **Modelo de ML** | **XGBoost** | Como o algoritmo de Machine Learning principal, escolhido por sua alta performance e robustez em dados tabulares. |
+| **Interpretabilidade (XAI)** | **SHAP** | Para a interpretabilidade do modelo ('Explainable AI'), permitindo a visualização do **porquê** o modelo toma cada decisão. |
+| **Estrutura de ML** | **Scikit-learn** | Para criar o `Pipeline` de pré-processamento, padronizar as features (`StandardScaler`), codificar variáveis (`OneHotEncoder`) e avaliar o modelo. |
+| **Análise de Dados** | **Pandas** | Para a manipulação, limpeza e preparação dos dados em todas as fases do projeto. |
+| **Visualização de Dados** | **Plotly Express** | Para a criação dos gráficos interativos e gerenciais na fase de EDA do dashboard. |
+| **Experimentação** | **Jupyter Notebook** | Como 'laboratório' para a experimentação, prototipação e validação do modelo de Machine Learning antes da produção. |
 ---
 
-## ✨ Demonstração do Dashboard
+##  Demonstração do Dashboard
 
 <img width="1024" height="1463" alt="image" src="https://github.com/user-attachments/assets/dbb2f35b-8a13-479e-a9db-03a438b17c9f" />
 
@@ -29,7 +49,7 @@ A solução final é um **dashboard interativo construído com Streamlit**, que 
 ---
 
 
-## 🚀 Principais Features
+##  Principais Features
 
 ### 📊 Análise EDA Gerencial
 * **Diagnóstico de Falhas:** Identificação visual dos tipos de falha mais comuns (HDF, PWF, etc.).
@@ -44,16 +64,6 @@ A solução final é um **dashboard interativo construído com Streamlit**, que 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
-
-* **Linguagem:** Python 3.12
-* **Análise de Dados:** Pandas, NumPy
-* **Visualização e Dashboard:** Streamlit, Plotly Express, Matplotlib, Seaborn
-* **Machine Learning:** Scikit-learn, XGBoost
-* **Interpretabilidade:** SHAP
-* **Ambiente:** VScode / venv
-
----
 
 ## ⚙️ Como Executar Localmente
 
@@ -115,9 +125,6 @@ Desenvolvo **modelos de Machine Learning** voltados à **manutenção preditiva*
 - 🏭 **Automação & IIoT:** CLPs, IHMs, Edge AI, Rockwell, Mitsubishi, Schneider, além de Edge AI e sistemas de visão embarcada.
 
 ---
-
-🎯 **Missão:** Conectar **Inteligência Artificial à operação fabril**, transformando dados em decisões automatizadas e resultados reais.  
-🚀 **Interesses:** Indústria 4.0, MLOps, Edge Computing e Realidades Aumentada e Mista.
 
 [comment]: <> (Link para o LinkedIn)
 [<img align="left" alt="Marcelo Kudo | LinkedIn" width="24px" src="https://www.vectorlogo.zone/logos/linkedin/linkedin-icon.svg" />][linkedin]
